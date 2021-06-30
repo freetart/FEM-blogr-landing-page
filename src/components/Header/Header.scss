@@ -1,1 +1,11 @@
 @use '../../baseScss/abstracts' as *;
+
+.header {
+  width: 100vw;
+  min-height: 80vh;
+  background: linear-gradient(
+    to right,
+    rgba(255, 143, 112, 1),
+    rgba(255, 61, 84, 1)
+  );
+}

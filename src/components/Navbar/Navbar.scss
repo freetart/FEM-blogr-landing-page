@@ -1,1 +1,32 @@
 @use '../../baseScss/abstracts' as *;
+
+.nav {
+  &-content {
+    @include maxWidthLg;
+    @include sectionSpacingSm;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &-logo-links {
+    display: flex;
+    align-items: center;
+  }
+
+  &-logo {
+    width: 10rem;
+    margin-right: 5rem;
+  }
+
+  &-list {
+    display: flex;
+    gap: 3rem;
+  }
+
+  &-signup-login {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+  }
+}

@@ -1,0 +1,10 @@
+@use '../../baseScss/abstracts' as *;
+
+.nav-link {
+  @include headingStyles;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: color(white);
+  font-size: size(sm);
+}
