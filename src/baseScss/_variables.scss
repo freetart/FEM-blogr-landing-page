@@ -26,8 +26,8 @@ $colors: (
   gradientRed-100: rgb(255, 143, 112),
   gradientRed-200: rgb(255, 61, 84),
   // background gradient - body
-  gradientBlue-100: hsl(237, 23%, 32%),
-  gradientBlue-200: hsl(237, 17%, 21%)
+  gradientBlue-100: rgb(63, 65, 100),
+  gradientBlue-200: rgb(44, 45, 63)
 );
 
 @function color($color-name) {

@@ -1,0 +1,38 @@
+@use '../../baseScss/abstracts' as *;
+
+.banner {
+  background: url('../../images/bg-pattern-circles.svg') top center / cover
+      no-repeat,
+    linear-gradient(to left, rgb(44, 45, 63), rgb(63, 65, 100));
+  border-bottom-left-radius: $sectionRadius;
+  border-top-right-radius: $sectionRadius;
+
+  &-content {
+    @include maxWidthLg;
+    @include sectionSpacingMd;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    color: color(white);
+  }
+
+  &-img {
+    width: 10rem;
+    transform: translateX(20rem) scale(5.2);
+  }
+
+  &-bg-pattern {
+    position: absolute;
+  }
+
+  &-heading {
+    @include headingStyles;
+    font-size: size(xxl);
+    margin-bottom: 2rem;
+  }
+
+  &-desc {
+    @include textStyles;
+    font-size: size(sm);
+  }
+}
