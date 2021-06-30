@@ -1,0 +1,42 @@
+@use '../../baseScss/abstracts' as *;
+
+.features {
+  @include sectionSpacingLg;
+
+  &-title {
+    @include headingStyles;
+    @include maxWidthLg;
+    text-align: center;
+    font-size: size(xxl) + 2rem;
+    color: color(veryDarkBlue);
+  }
+
+  &-content {
+    @include maxWidthLg;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 5rem;
+  }
+
+  .feature {
+    margin-bottom: 5rem;
+  }
+
+  &-heading {
+    @include headingStyles;
+    font-size: size(xxl);
+    color: color(veryDarkBlue);
+    margin-bottom: 1rem;
+  }
+
+  &-desc {
+    @include textStyles;
+    font-size: size(sm);
+    color: color(veryDarkGrayishBlue);
+  }
+
+  &-img {
+    transform: translateX(35rem) scale(1.5);
+  }
+}
