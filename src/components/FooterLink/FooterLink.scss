@@ -1,0 +1,11 @@
+@use '../../baseScss/abstracts' as *;
+
+.footer-item {
+  margin: 1rem 0;
+}
+
+.footer-link {
+  @include textStyles;
+  color: color(white);
+  font-size: size(xs);
+}

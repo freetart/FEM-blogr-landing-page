@@ -1,0 +1,26 @@
+@use '../../baseScss/abstracts' as *;
+
+.footer {
+  background-color: color(veryDarkBlackBlue);
+  color: color(white);
+  border-top-right-radius: $sectionRadius;
+
+  &-content {
+    @include maxWidthLg;
+    @include sectionSpacingSm;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: flex-start;
+    gap: 5rem;
+  }
+
+  &-logo {
+    width: 10rem;
+  }
+
+  &-heading {
+    @include headingStyles;
+    font-size: size(md);
+    margin-bottom: 2rem;
+  }
+}
