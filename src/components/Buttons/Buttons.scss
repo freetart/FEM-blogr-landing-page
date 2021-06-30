@@ -1,9 +1,10 @@
 @use '../../baseScss/abstracts' as *;
 
 .btn {
-  border-radius: 5rem;
+  border-radius: $btnRadius;
   padding: 1rem 3rem;
   font-size: size(sm);
+  display: inline-block;
 
   &-primary {
     @include headingStyles;

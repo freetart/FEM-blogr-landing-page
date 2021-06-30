@@ -3,9 +3,8 @@
 .header {
   width: 100vw;
   min-height: 80vh;
-  background: linear-gradient(
-    to right,
-    rgba(255, 143, 112, 1),
-    rgba(255, 61, 84, 1)
-  );
+  background: url('../../images/bg-pattern-intro.svg') center center/cover
+      no-repeat,
+    linear-gradient(to right, rgba(255, 143, 112, 1), rgba(255, 61, 84, 1));
+  border-bottom-left-radius: $sectionRadius;
 }

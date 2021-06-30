@@ -1,1 +1,29 @@
 @use '../../baseScss/abstracts' as *;
+
+.hero {
+  &-content {
+    @include maxWidthLg;
+    @include flexCenter;
+    @include sectionSpacingLg;
+    flex-direction: column;
+    color: color(white);
+    text-align: center;
+  }
+
+  &-heading {
+    @include headingStyles;
+    font-size: size(xxl) + 4rem;
+  }
+
+  &-desc {
+    @include textStyles;
+    font-size: size(md);
+    margin-bottom: 4rem;
+  }
+
+  &-btns {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+  }
+}
