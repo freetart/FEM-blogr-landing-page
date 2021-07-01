@@ -22,11 +22,19 @@
   &-list {
     display: flex;
     gap: 3rem;
+
+    @include responsive(sm) {
+      display: none;
+    }
   }
 
   &-signup-login {
     display: flex;
     align-items: center;
     gap: 4rem;
+
+    @include responsive(lg) {
+      display: none;
+    }
   }
 }

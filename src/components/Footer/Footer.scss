@@ -12,6 +12,10 @@
     grid-template-columns: repeat(4, 1fr);
     align-items: flex-start;
     gap: 5rem;
+
+    @include responsive(sm) {
+      grid-template-columns: 1fr;
+    }
   }
 
   &-logo {

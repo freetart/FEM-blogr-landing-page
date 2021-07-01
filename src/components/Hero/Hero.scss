@@ -8,11 +8,19 @@
     flex-direction: column;
     color: color(white);
     text-align: center;
+
+    @include responsive(md) {
+      @include sectionSpacingSm;
+    }
   }
 
   &-heading {
     @include headingStyles;
     font-size: size(xxl) + 4rem;
+
+    @include responsive(sm) {
+      font-size: size(xxl) + 2rem;
+    }
   }
 
   &-desc {
@@ -25,5 +33,9 @@
     display: flex;
     align-items: center;
     gap: 3rem;
+
+    @include responsive(sm) {
+      flex-direction: column;
+    }
   }
 }

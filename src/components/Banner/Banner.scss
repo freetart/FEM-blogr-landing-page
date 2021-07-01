@@ -14,11 +14,27 @@
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     color: color(white);
+
+    @include responsive(md) {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+  }
+
+  &-info {
+    @include responsive(md) {
+      order: -1;
+    }
   }
 
   &-img {
     width: 10rem;
     transform: translateX(20rem) scale(5.2);
+
+    @include responsive(lg) {
+      width: 100%;
+      transform: translateX(0) scale(1);
+    }
   }
 
   &-bg-pattern {

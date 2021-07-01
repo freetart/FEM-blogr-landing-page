@@ -6,6 +6,11 @@
   font-size: size(sm);
   display: inline-block;
 
+  @include responsive(sm) {
+    width: 100%;
+    display: block;
+  }
+
   &-primary {
     @include headingStyles;
     background-color: color(white);
