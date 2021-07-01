@@ -4,6 +4,7 @@ import Hero from './components/Hero/Hero';
 import { FeaturesOne, FeaturesTwo } from './components/Features/Features';
 import Banner from './components/Banner/Banner';
 import Footer from './components/Footer/Footer';
+import Tag from './components/Tag/Tag';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <FeaturesTwo />
       </main>
       <Footer />
+      <Tag />
     </>
   );
 }
