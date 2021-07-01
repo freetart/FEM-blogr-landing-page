@@ -8,4 +8,9 @@
   @include textStyles;
   color: color(white);
   font-size: size(xs);
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
 }
