@@ -10,6 +10,10 @@
     font-size: size(xxl) + 2rem;
     color: color(veryDarkBlue);
     margin-bottom: 5rem;
+
+    @include responsive(sm) {
+      font-size: size(xxl) + 1rem;
+    }
   }
 
   &-content {
