@@ -3,6 +3,7 @@
 landing page for frontend mentor
 
 #### Features
+- preloader
 - responsive design
 - animated content on scroll
 
