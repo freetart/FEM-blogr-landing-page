@@ -9,10 +9,14 @@ const FeaturesOne = () => {
       <div className='features-content'>
         <div className='feature-info'>
           <div className='feature'>
-            <h3 className='features-heading'>
+            <h3 className='features-heading' data-aos='fade-up'>
               Introducing an extensible editor
             </h3>
-            <p className='features-desc'>
+            <p
+              className='features-desc'
+              data-aos='fade-up'
+              data-aos-delay='100'
+            >
               Blogr features an exceedingly intuitive interface which lets you
               focus on one thing: creating content. The editor supports
               management of multiple blogs and allows easy manipulation of
@@ -22,8 +26,18 @@ const FeaturesOne = () => {
             </p>
           </div>
           <div className='feature'>
-            <h3 className='features-heading'>Robust content management</h3>
-            <p className='features-desc'>
+            <h3
+              className='features-heading'
+              data-aos='fade-up'
+              data-aos-delay='200'
+            >
+              Robust content management
+            </h3>
+            <p
+              className='features-desc'
+              data-aos='fade-up'
+              data-aos-delay='300'
+            >
               Flexible content management enables users to easily move through
               posts. Increase the usability of your blog by adding customized
               categories, sections, format, or flow. With this functionality,
@@ -52,8 +66,14 @@ const FeaturesTwo = () => {
         />
         <div className='feature-info'>
           <div className='feature'>
-            <h3 className='features-heading'>Free, open, simple</h3>
-            <p className='features-desc'>
+            <h3 className='features-heading' data-aos='fade-up'>
+              Free, open, simple
+            </h3>
+            <p
+              className='features-desc'
+              data-aos='fade-up'
+              data-aos-delay='100'
+            >
               Blogr is a free and open source application backed by a large
               community of helpful developers. It supports features such as code
               syntax highlighting, RSS feeds, social media integration,
@@ -63,8 +83,18 @@ const FeaturesTwo = () => {
             </p>
           </div>
           <div className='feature'>
-            <h3 className='features-heading'>Powerful tooling</h3>
-            <p className='features-desc'>
+            <h3
+              className='features-heading'
+              data-aos='fade-up'
+              data-aos-delay='200'
+            >
+              Powerful tooling
+            </h3>
+            <p
+              className='features-desc'
+              data-aos='fade-up'
+              data-aos-delay='300'
+            >
               Batteries included. We built a simple and straightforward CLI tool
               that makes customization and deployment a breeze, but capable of
               producing even the most complicated sites.
