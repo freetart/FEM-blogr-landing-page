@@ -7,7 +7,7 @@ const Tag = () => {
       <h3 className='tag-heading'>
         project for{' '}
         <a
-          href='https://www.frontendmentor.io/challenges/loopstudios-landing-page-N88J5Onjw'
+          href='https://www.frontendmentor.io/challenges/blogr-landing-page-EX2RLAApP'
           target='_blank'
           rel='noreferrer'
           className='tag-link'
