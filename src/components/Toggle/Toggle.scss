@@ -1,0 +1,17 @@
+@use '../../baseScss/abstracts' as *;
+
+.toggle {
+  display: none;
+  background: transparent;
+  outline: 0;
+  border: 0;
+
+  @include responsive(sm) {
+    display: block;
+  }
+
+  &-icon {
+    font-size: size(xxl);
+    color: color(white);
+  }
+}
