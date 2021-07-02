@@ -1,6 +1,6 @@
 import './Sidebar.scss';
-import logo from '../images/logo.svg';
-import NavLink from '../components/NavLink/NavLink';
+import logo from '../../images/logo.svg';
+import NavLink from '../NavLink/NavLink';
 
 const Sidebar = ({ isActive }) => {
   if (isActive) {

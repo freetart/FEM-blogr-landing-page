@@ -4,11 +4,9 @@ import { FeaturesOne, FeaturesTwo } from './components/Features/Features';
 import Banner from './components/Banner/Banner';
 import Footer from './components/Footer/Footer';
 import Tag from './components/Tag/Tag';
-import Sidebar from './Sidebar/Sidebar';
+import Sidebar from './components/Sidebar/Sidebar';
 import AOS from 'aos';
 import '../node_modules/aos/dist/aos.css';
-
-// TODO: add hamburger menu & sidebar
 
 function App() {
   const [isActive, setIsActive] = useState(false);
