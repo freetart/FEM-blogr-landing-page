@@ -7,7 +7,10 @@ const Toggle = ({ isActive, setIsActive }) => {
       {!isActive ? (
         <FaBars className='toggle-icon' />
       ) : (
-        <FaTimes className='toggle-icon' />
+        <FaTimes
+          className='toggle-icon'
+          style={{ position: 'fixed', right: '2rem', top: '5rem' }}
+        />
       )}
     </button>
   );
